@@ -1,0 +1,22 @@
+body {
+    text-align: center;
+}
+
+.info {
+    width: 200px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.test {
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    border-style: dashed;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.FAQ {
+    border-style: dotted;
+    background-color: red;
+}
