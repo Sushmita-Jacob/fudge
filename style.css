@@ -8,7 +8,7 @@ body {
     padding: 10px;
 }
 
-.test {
+.FAQ {
     display:grid;
     grid-template-columns: 1fr 1fr 1fr;
     border-style: dashed;
@@ -16,7 +16,36 @@ body {
     margin-right: 20px;
 }
 
-.FAQ {
+.QaA {
     border-style: dotted;
+    border-width: 2px;
     background-color: red;
+    padding: 10px;
+}
+
+.QaA:hover {
+    background-color: crimson;
+}
+
+.FAQsub {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+ul {
+    list-style-position: inside;
+}
+
+.flavors {
+    border-style: solid;
+    width: 600px;
+    margin: 0 auto;
+}
+
+.ideas {
+    border-style: solid;
+    width: 500px;
+    margin: 0 auto;
 }
