@@ -1,5 +1,6 @@
 body {
     text-align: center;
+    font-family: cursive;
 }
 
 .info {
@@ -9,7 +10,7 @@ body {
 }
 
 .FAQ {
-    display:grid;
+    display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     border-style: dashed;
     margin-left: 20px;
@@ -19,12 +20,12 @@ body {
 .QaA {
     border-style: dotted;
     border-width: 2px;
-    background-color: red;
+    background-color: pink;
     padding: 10px;
 }
 
 .QaA:hover {
-    background-color: crimson;
+    background-color: palevioletred;
 }
 
 .FAQsub {
@@ -39,13 +40,48 @@ ul {
 }
 
 .flavors {
-    border-style: solid;
+    border-style: outset;
+    border-color: brown;
+    border-width: 5px;
     width: 600px;
     margin: 0 auto;
+    background-color: chocolate;
 }
 
 .ideas {
-    border-style: solid;
+    border-style: outset;
+    border-color: brown;
+    border-width: 5px;
     width: 500px;
     margin: 0 auto;
+    background-color: chocolate;
+}
+
+html {
+    background-color: peachpuff;
+}
+
+.allergy {
+    color: red;
+    border-style: outset;
+    border-color: crimson;
+    border-width: 5px;
+    width: 1000px;
+    margin: 0 auto;
+    background-color: white;
+}
+
+.infobox {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.flavorlist {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-right: 70px;
+}
+
+.idealist {
+    margin-right: 40px;
 }
